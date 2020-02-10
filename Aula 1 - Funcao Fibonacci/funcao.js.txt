@@ -1,0 +1,13 @@
+const calculo = (qnt) => {
+  let i = 0;
+  let numA = 1;
+  let numB = 0;
+  let result;
+  while(i <= qnt){
+    result = numA + numB;
+    numB = numA;
+    numA = result;
+    i++;
+  }
+}
+calculo(17);
