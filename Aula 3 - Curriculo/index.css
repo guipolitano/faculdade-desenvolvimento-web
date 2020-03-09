@@ -1,0 +1,51 @@
+html{
+    background-color: #3e3e3e;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    text-align: center;
+    color: white;
+}
+
+#header, .secao{
+    display: flex;
+    border-radius: 8px;
+    
+}
+
+.secao{
+    margin: 5px 0px;
+    background-color: #26272b;
+    padding: 0px 40px;
+    flex-direction: column;
+}
+
+#header{
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("header.jpg");
+}
+.secao > h2{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-bottom: 2px solid #ffffff26;
+}
+
+#foto{
+    display: flex;
+}
+
+#foto > img{
+    border-radius: 50%;
+}
+
+#dados{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+}
