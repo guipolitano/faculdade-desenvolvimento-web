@@ -48,4 +48,16 @@ body{
 ul{
     list-style: none;
     padding: 0px;
+    width: 100%
+}
+
+li{
+    background: #404040;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #cdeaf2;
 }
